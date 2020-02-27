@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7808083-ffad-4b5e-95e9-dbbcb6f98fba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/FileIndexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/FileIndexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Indexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Indexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Searcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index/_9.cfe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index/_9.cfs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index/_9.si" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index/segments_9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/InformationRetrival.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/index/_e.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/index/_e.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/index/_e.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/index/segments_e" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +59,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IRWS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -75,7 +73,7 @@
       <recent name="E:\Copied code\InformationRetrival\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Searcher">
+  <component name="RunManager" selected="Application.FileParser">
     <configuration name="FileIndexer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.myproject.tcd.FileIndexer" />
       <module name="InformationRetrival" />
@@ -89,9 +87,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FileParser" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.myproject.tcd.FileParser" />
-      <module name="InformationRetrival" />
+      <module name="InformationRetrivalWebSearcher" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.myproject.tcd.*" />
@@ -102,9 +100,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Indexer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Indexer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.myproject.tcd.Indexer" />
-      <module name="InformationRetrival" />
+      <module name="InformationRetrivalWebSearcher" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.myproject.tcd.*" />
@@ -115,9 +113,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Searcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Searcher" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.myproject.tcd.Searcher" />
-      <module name="InformationRetrival" />
+      <module name="InformationRetrivalWebSearcher" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.myproject.tcd.*" />
@@ -141,11 +141,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.FileParser" />
+      <item itemvalue="Application.Indexer" />
+      <item itemvalue="Application.Searcher" />
+      <item itemvalue="Application.FileIndexer" />
+      <item itemvalue="Application.tester" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Searcher" />
-        <item itemvalue="Application.Indexer" />
-        <item itemvalue="Application.FileParser" />
         <item itemvalue="Application.tester" />
         <item itemvalue="Application.FileIndexer" />
       </list>
@@ -162,6 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582584127970</updated>
       <workItem from="1582584131733" duration="34237000" />
+      <workItem from="1582818366754" duration="262000" />
     </task>
     <servers />
   </component>
@@ -169,33 +174,57 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="355" y="-896" key="#FileParser" timestamp="1582818572850">
+      <screen x="-322" y="-1080" width="1920" height="1050" />
+    </state>
+    <state x="355" y="-896" key="#FileParser/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582818572850" />
+    <state x="355" y="-896" key="#Indexer" timestamp="1582818588270">
+      <screen x="-322" y="-1080" width="1920" height="1050" />
+    </state>
+    <state x="355" y="-896" key="#Indexer/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582818588270" />
+    <state x="230" y="-896" key="#Inspections" timestamp="1582818450063">
+      <screen x="-322" y="-1080" width="1920" height="1050" />
+    </state>
+    <state x="230" y="-896" key="#Inspections/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582818450063" />
+    <state x="355" y="-896" key="#Searcher" timestamp="1582818524444">
+      <screen x="-322" y="-1080" width="1920" height="1050" />
+    </state>
+    <state x="355" y="-896" key="#Searcher/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582818524444" />
+    <state x="92" y="-900" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582818545646">
+      <screen x="-322" y="-1080" width="1920" height="1050" />
+    </state>
+    <state x="92" y="-900" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582818545646" />
     <state x="445" y="-800" key="FileChooserDialogImpl" timestamp="1582740201812">
       <screen x="-295" y="-1080" width="1920" height="1050" />
     </state>
     <state x="445" y="-800" key="FileChooserDialogImpl/0.0.1366.738/-295.-1080.1920.1050@-295.-1080.1920.1050" timestamp="1582740201812" />
-    <state width="1877" height="213" key="GridCell.Tab.0.bottom" timestamp="1582750411887">
-      <screen x="-295" y="-1080" width="1920" height="1050" />
+    <state width="1877" height="213" key="GridCell.Tab.0.bottom" timestamp="1582818611483">
+      <screen x="-322" y="-1080" width="1920" height="1050" />
     </state>
     <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1366.738/-1080.-1080.1920.1050@-1080.-1080.1920.1050" timestamp="1582663575104" />
     <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1366.738/-295.-1080.1920.1050@-295.-1080.1920.1050" timestamp="1582750411887" />
+    <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582818611483" />
     <state width="1323" height="213" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582592399000" />
-    <state width="1877" height="213" key="GridCell.Tab.0.center" timestamp="1582750411887">
-      <screen x="-295" y="-1080" width="1920" height="1050" />
+    <state width="1877" height="213" key="GridCell.Tab.0.center" timestamp="1582818611483">
+      <screen x="-322" y="-1080" width="1920" height="1050" />
     </state>
     <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1366.738/-1080.-1080.1920.1050@-1080.-1080.1920.1050" timestamp="1582663575104" />
     <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1366.738/-295.-1080.1920.1050@-295.-1080.1920.1050" timestamp="1582750411887" />
+    <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582818611483" />
     <state width="1323" height="213" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1582592398999" />
-    <state width="1877" height="213" key="GridCell.Tab.0.left" timestamp="1582750411886">
-      <screen x="-295" y="-1080" width="1920" height="1050" />
+    <state width="1877" height="213" key="GridCell.Tab.0.left" timestamp="1582818611482">
+      <screen x="-322" y="-1080" width="1920" height="1050" />
     </state>
     <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1366.738/-1080.-1080.1920.1050@-1080.-1080.1920.1050" timestamp="1582663575104" />
     <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1366.738/-295.-1080.1920.1050@-295.-1080.1920.1050" timestamp="1582750411886" />
+    <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582818611482" />
     <state width="1323" height="213" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1582592398999" />
-    <state width="1877" height="213" key="GridCell.Tab.0.right" timestamp="1582750411887">
-      <screen x="-295" y="-1080" width="1920" height="1050" />
+    <state width="1877" height="213" key="GridCell.Tab.0.right" timestamp="1582818611483">
+      <screen x="-322" y="-1080" width="1920" height="1050" />
     </state>
     <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1366.738/-1080.-1080.1920.1050@-1080.-1080.1920.1050" timestamp="1582663575104" />
     <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1366.738/-295.-1080.1920.1050@-295.-1080.1920.1050" timestamp="1582750411887" />
+    <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582818611483" />
     <state width="1323" height="213" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582592399000" />
     <state width="1877" height="368" key="GridCell.Tab.1.bottom" timestamp="1582750039554">
       <screen x="-295" y="-1080" width="1920" height="1050" />
@@ -221,9 +250,10 @@
     <state width="1877" height="368" key="GridCell.Tab.1.right/0.0.1366.738/-1080.-1080.1920.1050@-1080.-1080.1920.1050" timestamp="1582661881839" />
     <state width="1877" height="368" key="GridCell.Tab.1.right/0.0.1366.738/-295.-1080.1920.1050@-295.-1080.1920.1050" timestamp="1582750039554" />
     <state width="1323" height="239" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1582592382027" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1582584608406">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="-63" y="-1080" key="SettingsEditor" timestamp="1582818503433">
+      <screen x="-322" y="-1080" width="1920" height="1050" />
     </state>
+    <state x="-63" y="-1080" key="SettingsEditor/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582818503433" />
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1582584608406" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1582587432761">
       <screen x="0" y="0" width="1366" height="738" />
