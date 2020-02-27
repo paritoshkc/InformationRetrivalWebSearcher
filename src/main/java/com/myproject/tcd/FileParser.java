@@ -160,6 +160,7 @@ public class FileParser {
 
     public static void main(String args[])
     {
+
         FileParser fileParser= new FileParser();
         List<Map<String, String>> list = fileParser.parseDoc();
         System.out.println(list.size());
