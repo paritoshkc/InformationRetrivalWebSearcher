@@ -30,9 +30,9 @@ public class Runner {
         List<String> analyzer= new ArrayList();
         analyzer.add("English Analyzer");
         analyzer.add("Standard Analyzer");
-        System.out.println("******************************************************************************");
+        System.out.println("*****************************************************************************************************************");
         System.out.format("|%20s  |%24s  |%60s |\n","Analyzers","SIMILARITY","RESULTS SAVED AT");
-        System.out.println("******************************************************************************");
+        System.out.println("*****************************************************************************************************************");
         for (String an:analyzer
              ) {
                 for (String sim:similarities
@@ -40,7 +40,7 @@ public class Runner {
                     String path=runner.get_results(an,sim);
                     System.out.format("|%20s  |%24s  |%60s |\n",an,sim,path);
                 }
-            System.out.println("******************************************************************************");
+            System.out.println("*****************************************************************************************************************");
         }
 
 

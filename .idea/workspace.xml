@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7808083-ffad-4b5e-95e9-dbbcb6f98fba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/results_EnglishAnalyzer_BM25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/results_EnglishAnalyzer_BM25.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/results_EnglishAnalyzer_ClassicSimilarity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/results_EnglishAnalyzer_ClassicSimilarity.txt" afterDir="false" />
@@ -9,126 +10,21 @@
       <change beforePath="$PROJECT_DIR$/output/results_StandardAnalyzer_BM25.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/results_StandardAnalyzer_BM25.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/results_StandardAnalyzer_ClassicSimilarity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/results_StandardAnalyzer_ClassicSimilarity.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/results_StandardAnalyzer_LMDirichletSimilarity.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/results_StandardAnalyzer_LMDirichletSimilarity.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Indexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Indexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Searcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Searcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index/_0.cfe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index/_0.cfe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index/_0.cfs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index/_0.cfs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index/_0.si" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index/_0.si" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/_0.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/index/_0.si" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/index/segments_1" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/index/segments_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/InformationRetrivalWebSearcher.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/myproject/tcd/Indexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myproject/tcd/Indexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/myproject/tcd/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myproject/tcd/Runner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/myproject/tcd/Searcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/myproject/tcd/Searcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/index/_0.cfe" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/index/_0.cfe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/index/_0.cfs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/index/_0.cfs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/index/_0.si" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/index/_0.si" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/index/_0.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/index/_0.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/index/_0.si" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/index/segments_1" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/index/segments_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/CHANGELOG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/README" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/README.windows.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/bpref_bug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/common.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/convert_zscores.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/form_prefs_counts.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/form_res_rels.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/form_res_rels_jg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/formats.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/functions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/get_prefs.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/get_qrels.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/get_qrels_jg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/get_qrels_prefs.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/get_trec_results.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/get_zscores.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_11pt_avg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_G.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_P.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_P_avgjg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_Rndcg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_Rprec.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_Rprec_mult.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_Rprec_mult_avgjg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_binG.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_bpref.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_gm_bpref.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_gm_map.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_infap.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_iprec_at_recall.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_map.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_map_avgjg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_map_cut.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_ndcg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_ndcg_cut.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_ndcg_p.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_ndcg_rel.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_num_nonrel_judged_ret.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_num_q.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_num_rel.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_num_rel_ret.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_num_ret.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_avgjg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_avgjg_Rnonrel.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_avgjg_Rnonrel_ret.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_avgjg_imp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_avgjg_ret.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_num_prefs_ful.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_num_prefs_ful_ret.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_num_prefs_poss.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_pair.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_pair_imp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_pair_ret.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_simp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_simp_imp.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_prefs_simp_ret.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_recall.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_recip_rank.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_rel_P.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_relstring.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_runid.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_set_F.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_set_P.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_set_map.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_set_recall.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_set_rel_P.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_success.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_utility.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/m_yaap.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/meas_acc.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/meas_avg.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/meas_init.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/meas_print_final.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/meas_print_single.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/measures.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/sysfunc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/out.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/out.test.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/out.test.aq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/out.test.aqZ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/out.test.aqc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/out.test.aqcM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/out.test.aql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/out.test.meas_params" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/out.test.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/out.test.qrels_jg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/out.test.qrels_prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/prefs.rank20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/prefs.results.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/prefs.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/qrel.new" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/qrels.123" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/qrels.rel_level" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/qrels.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/results.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/results.trunc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/results.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/resultskavya.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/test/zscores_file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/trec_eval.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/trec_eval.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/trec_eval.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/trec_format.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trec_eval-9.0.7/utility_pool.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +79,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -192,6 +88,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Copied code\InformationRetrival\src\main\resources\cran" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install -X" />
+    </option>
   </component>
   <component name="RunManager" selected="Application.Runner">
     <configuration name="FileIndexer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -301,7 +202,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582584127970</updated>
       <workItem from="1582584131733" duration="34237000" />
-      <workItem from="1582818366754" duration="10564000" />
+      <workItem from="1582818366754" duration="13291000" />
     </task>
     <servers />
   </component>
@@ -325,10 +226,10 @@
       <screen x="-322" y="-1080" width="1920" height="1050" />
     </state>
     <state x="355" y="-896" key="#Searcher/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582818524444" />
-    <state x="92" y="-900" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582818545646">
+    <state x="92" y="-900" width="1092" height="776" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582834603182">
       <screen x="-322" y="-1080" width="1920" height="1050" />
     </state>
-    <state x="92" y="-900" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582818545646" />
+    <state x="92" y="-900" width="1092" height="776" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582834603182" />
     <state x="443" y="-871" key="#com.intellij.ide.util.MemberChooser" timestamp="1582828759324">
       <screen x="-322" y="-1080" width="1920" height="1050" />
     </state>
@@ -341,33 +242,37 @@
       <screen x="-295" y="-1080" width="1920" height="1050" />
     </state>
     <state x="445" y="-800" key="FileChooserDialogImpl/0.0.1366.738/-295.-1080.1920.1050@-295.-1080.1920.1050" timestamp="1582740201812" />
-    <state width="1877" height="406" key="GridCell.Tab.0.bottom" timestamp="1582832607685">
-      <screen x="-322" y="-1080" width="1920" height="1050" />
+    <state width="1323" height="286" key="GridCell.Tab.0.bottom" timestamp="1582838533067">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1366.738/-1080.-1080.1920.1050@-1080.-1080.1920.1050" timestamp="1582663575104" />
     <state width="1877" height="213" key="GridCell.Tab.0.bottom/0.0.1366.738/-295.-1080.1920.1050@-295.-1080.1920.1050" timestamp="1582750411887" />
-    <state width="1877" height="406" key="GridCell.Tab.0.bottom/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582832607685" />
+    <state width="1877" height="162" key="GridCell.Tab.0.bottom/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582834690034" />
+    <state width="1323" height="286" key="GridCell.Tab.0.bottom/0.0.1366.738/-322.-1080.1920.1050@0.0.1366.738" timestamp="1582838533067" />
     <state width="1323" height="213" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582592399000" />
-    <state width="1877" height="406" key="GridCell.Tab.0.center" timestamp="1582832607684">
-      <screen x="-322" y="-1080" width="1920" height="1050" />
+    <state width="1323" height="286" key="GridCell.Tab.0.center" timestamp="1582838533067">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1366.738/-1080.-1080.1920.1050@-1080.-1080.1920.1050" timestamp="1582663575104" />
     <state width="1877" height="213" key="GridCell.Tab.0.center/0.0.1366.738/-295.-1080.1920.1050@-295.-1080.1920.1050" timestamp="1582750411887" />
-    <state width="1877" height="406" key="GridCell.Tab.0.center/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582832607684" />
+    <state width="1877" height="162" key="GridCell.Tab.0.center/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582834690034" />
+    <state width="1323" height="286" key="GridCell.Tab.0.center/0.0.1366.738/-322.-1080.1920.1050@0.0.1366.738" timestamp="1582838533067" />
     <state width="1323" height="213" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1582592398999" />
-    <state width="1877" height="406" key="GridCell.Tab.0.left" timestamp="1582832607684">
-      <screen x="-322" y="-1080" width="1920" height="1050" />
+    <state width="1323" height="286" key="GridCell.Tab.0.left" timestamp="1582838533067">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1366.738/-1080.-1080.1920.1050@-1080.-1080.1920.1050" timestamp="1582663575104" />
     <state width="1877" height="213" key="GridCell.Tab.0.left/0.0.1366.738/-295.-1080.1920.1050@-295.-1080.1920.1050" timestamp="1582750411886" />
-    <state width="1877" height="406" key="GridCell.Tab.0.left/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582832607684" />
+    <state width="1877" height="162" key="GridCell.Tab.0.left/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582834690034" />
+    <state width="1323" height="286" key="GridCell.Tab.0.left/0.0.1366.738/-322.-1080.1920.1050@0.0.1366.738" timestamp="1582838533067" />
     <state width="1323" height="213" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1582592398999" />
-    <state width="1877" height="406" key="GridCell.Tab.0.right" timestamp="1582832607684">
-      <screen x="-322" y="-1080" width="1920" height="1050" />
+    <state width="1323" height="286" key="GridCell.Tab.0.right" timestamp="1582838533067">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1366.738/-1080.-1080.1920.1050@-1080.-1080.1920.1050" timestamp="1582663575104" />
     <state width="1877" height="213" key="GridCell.Tab.0.right/0.0.1366.738/-295.-1080.1920.1050@-295.-1080.1920.1050" timestamp="1582750411887" />
-    <state width="1877" height="406" key="GridCell.Tab.0.right/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582832607684" />
+    <state width="1877" height="162" key="GridCell.Tab.0.right/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582834690034" />
+    <state width="1323" height="286" key="GridCell.Tab.0.right/0.0.1366.738/-322.-1080.1920.1050@0.0.1366.738" timestamp="1582838533067" />
     <state width="1323" height="213" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582592399000" />
     <state width="1877" height="368" key="GridCell.Tab.1.bottom" timestamp="1582829589870">
       <screen x="-322" y="-1080" width="1920" height="1050" />
@@ -397,18 +302,19 @@
     <state width="1877" height="368" key="GridCell.Tab.1.right/0.0.1366.738/-295.-1080.1920.1050@-295.-1080.1920.1050" timestamp="1582750039554" />
     <state width="1877" height="368" key="GridCell.Tab.1.right/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582829589869" />
     <state width="1323" height="239" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1582592382027" />
-    <state x="-63" y="-1080" key="SettingsEditor" timestamp="1582818503433">
+    <state x="490" y="-1069" key="SettingsEditor" timestamp="1582838211466">
       <screen x="-322" y="-1080" width="1920" height="1050" />
     </state>
-    <state x="-63" y="-1080" key="SettingsEditor/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582818503433" />
+    <state x="490" y="-1069" key="SettingsEditor/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582838211466" />
     <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1582584608406" />
     <state x="368" y="-789" key="extract.method.dialog" timestamp="1582823544689">
       <screen x="-322" y="-1080" width="1920" height="1050" />
     </state>
     <state x="368" y="-789" key="extract.method.dialog/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582823544689" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1582587432761">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="154" y="-845" width="672" height="677" key="run.anything.popup" timestamp="1582834690049">
+      <screen x="-322" y="-1080" width="1920" height="1050" />
     </state>
+    <state x="154" y="-845" width="672" height="677" key="run.anything.popup/0.0.1366.738/-322.-1080.1920.1050@-322.-1080.1920.1050" timestamp="1582834690049" />
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1582587432761" />
     <state x="346" y="59" key="search.everywhere.popup" timestamp="1582591795049">
       <screen x="0" y="0" width="1366" height="738" />

@@ -40,7 +40,7 @@ public class Searcher {
         try {
 
 
-            Directory directory= FSDirectory.open(Paths.get("E:\\Copied code\\InformationRetrival\\src\\main\\resources\\index"));
+            Directory directory= FSDirectory.open(Paths.get("src/main/resources/index"));
             DirectoryReader ireader = DirectoryReader.open(directory);
             IndexSearcher isearcher = new IndexSearcher(ireader);
             isearcher.setSimilarity(indexer.getSimilarity());
