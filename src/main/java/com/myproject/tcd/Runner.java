@@ -31,15 +31,15 @@ public class Runner {
         analyzer.add("English Analyzer");
         analyzer.add("Standard Analyzer");
         System.out.println("******************************************************************************");
-        System.out.format("|%20s  |%24s  |%40s |\n","Analyzers","SIMILARITY","RESULTS SAVED AT");
+        System.out.format("|%20s  |%24s  |%60s |\n","Analyzers","SIMILARITY","RESULTS SAVED AT");
         System.out.println("******************************************************************************");
         for (String an:analyzer
              ) {
-            for (String sim:similarities
-                 ) {
-                String path=runner.get_results(an,sim);
-                System.out.format("|%20s  |%24s  |%24s |\n",an,sim,path);
-            }
+                for (String sim:similarities
+                ) {
+                    String path=runner.get_results(an,sim);
+                    System.out.format("|%20s  |%24s  |%60s |\n",an,sim,path);
+                }
             System.out.println("******************************************************************************");
         }
 
