@@ -76,7 +76,7 @@ public class Indexer {
             CharArraySet stopWordSet = new CharArraySet( stopWordList, true);
 
 
-            Directory directory= FSDirectory.open(Paths.get("src\\main\\resources\\index"));
+            Directory directory= FSDirectory.open(Paths.get("src/main/resources/index"));
              analyzer = new StandardAnalyzer();
 
             if (analyzerString.equals("English Analyzer"))
