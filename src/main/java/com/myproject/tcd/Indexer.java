@@ -3,6 +3,7 @@ package com.myproject.tcd;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.CharArraySet;
 import org.apache.lucene.analysis.en.EnglishAnalyzer;
+import org.apache.lucene.analysis.standard.ClassicAnalyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
@@ -83,6 +84,8 @@ public class Indexer {
                 analyzer = new EnglishAnalyzer(stopWordSet);
             else if (analyzerString.equals("Standard Analyzer"))
                 analyzer= new StandardAnalyzer(stopWordSet);
+            else if (analyzerString.equals("Classic Analyzer"))
+                analyzer= new ClassicAnalyzer(stopWordSet);
             
             IndexWriterConfig config= new IndexWriterConfig(analyzer);
             config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);

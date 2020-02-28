@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7808083-ffad-4b5e-95e9-dbbcb6f98fba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/InformationRetrivalWebSearcher.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Indexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Indexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index/_b.cfe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index/_b.cfs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index/_b.si" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/index/segments_c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/myproject/tcd/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +184,7 @@
       <workItem from="1582584131733" duration="34237000" />
       <workItem from="1582818366754" duration="14835000" />
       <workItem from="1582851351400" duration="1893000" />
-      <workItem from="1582889892714" duration="91000" />
+      <workItem from="1582889892714" duration="1918000" />
     </task>
     <servers />
   </component>
@@ -316,7 +312,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/myproject/tcd/Runner.java</url>
-          <line>35</line>
+          <line>37</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>

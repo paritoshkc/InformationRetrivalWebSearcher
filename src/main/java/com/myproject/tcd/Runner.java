@@ -30,6 +30,8 @@ public class Runner {
         List<String> analyzer= new ArrayList();
         analyzer.add("English Analyzer");
         analyzer.add("Standard Analyzer");
+        analyzer.add("Classic Analyzer");
+
         System.out.println("*****************************************************************************************************************");
         System.out.format("|%20s  |%24s  |%60s |\n","Analyzers","SIMILARITY","RESULTS SAVED AT");
         System.out.println("*****************************************************************************************************************");
